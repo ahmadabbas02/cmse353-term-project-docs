@@ -1,6 +1,6 @@
 swagger: "2.0"
 info: { 
-  title: "Secure Attendance System API Docs",
+  title: "Secure Attendance System API Docs", 
   version: "1.0", 
   description: "This was created as CMSE353 term project for EMU." 
  }
@@ -424,7 +424,7 @@ paths:
               message:
                 type: string
 
-  /chair/studSents/{studentId}:
+  /chair/students/{studentId}:
     get:
       tags:
         - chair
